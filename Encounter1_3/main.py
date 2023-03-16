@@ -15,6 +15,7 @@ time.sleep(1)
 for i in range(10):
     time.sleep(0.2)
     print("...")
+print("feck u lucian")
 print("Aldyn's Scriptorium")
 time.sleep(1)
 
