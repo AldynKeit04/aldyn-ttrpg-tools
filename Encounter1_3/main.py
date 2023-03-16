@@ -5,6 +5,7 @@ import random
 #My modules
 from encGenScripts.regLists import *
 from encGenScripts import *
+from encGenScripts.utils import *
 #These modules import generation scripts and the lists needed for them to function
 
 #Introduction and "sign in"
@@ -54,3 +55,5 @@ while True:
     elif userinput == "exit":
         print("Goodbye")
         break
+    elif userinput == "OMTC":
+        print (monsterAtkMatrix.MatkMatrix)
