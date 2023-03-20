@@ -33,18 +33,20 @@ time.sleep(0.5)
 
 print("Here are the current scripts, use the shorthanded names to the right")
 
-print("==================================")
-print("Random Encounter Generators")
-print("==================================")
-print("North-West Forest Encounters|NWFE")
-print("----------------------------------")
-print("North-West Road Encounters|NWRE")
-print("==================================")
-print("Utilities")
-print("==================================")
-print("OSRIC Monster THAC0 Chart |OMTC")
-print("__________________________________")
-print("Or, type exit to leave.")
+print(
+"""==================================
+Random Encounter Generators
+==================================
+North-West Forest Encounters|NWFE
+----------------------------------
+North-West Road Encounters|NWRE
+==================================
+Utilities")
+==================================
+OSRIC Monster THAC0 Chart |OMTC
+__________________________________
+Or, type exit to leave."""
+)
 #The following code is the actual mechanism for the user to retrieve generated encounters
 
 while True:
