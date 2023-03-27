@@ -4,10 +4,9 @@ import random
 #in order to determine what is generated. There are multiple 
 #of the same thing, because I don't know how else to weigh the 
 #statistical chances of them.
-mainList = ["Human Raiders", "Human Raiders", "Ajdurian Raiders", 
-        "Noble Party", "Hostile Animals", "Passive Animals", "Passive Animals",
-        "Passive Animals", "Guard Patrol", "Guard Patrol", "Commoner Party",
-        "Commoner Party", "Commoner Party", "Commoner Party"
+mainList = ["Human Raiders", "Ajdurian Raiders", 
+        "Noble Party", "Hostile Animals",
+        "Passive Animals", "Guard Patrol", "Commoner Party",
         ]
 
 #If the function below gets "Passive Animals", it randomly 

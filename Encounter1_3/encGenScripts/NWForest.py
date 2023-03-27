@@ -4,7 +4,7 @@ from encGenScripts.regLists.NWFlist import *
 #This determines the actual encounter results themselves, 
 #and type of animals.
 def NWFresults():
-    rand_dict = random.choice(mainList)
+    rand_dict = random.choices(mainList, weights=(70,5,10,15))
     if "Passive Animals" in rand_dict:
         return random.choice(list(passDict.items()))
     elif "Hostile Animals" in rand_dict:

@@ -1,15 +1,11 @@
 import random
 
-#This list is the first thing which the script goes over i
-#in order to determine what is generated. There are multiple 
-#of the same thing, because I don't know how else to weigh the 
-#statistical chances of them.
-mainList = ["Passive Animals", "Passive Animals",
-        "Passive Animals", "Passive Animals", 
-        "Passive Animals",
+#This list is the first thing which the script goes over. This list used
+#to have many more items in them, however I learned how to better weigh
+#things with random.choices rather than random.choice.
+mainList = ["Passive Animals",
         "Human Raiders", "Ajdurian Raiders", 
-        "Ajdurian Raiders",
-        "Hostile Animals", "Hostile Animals"]
+        "Hostile Animals"]
 
 #If the function below gets "Passive Animals", it randomly 
 #chooses on
